@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset.css */
+html,body,h1,h2,h3,h4,h5,div,p,ul,ol,dl,dt,dd,fieldset,img,q,i,em,sub,sup,strong,form{margin:0;padding:0;list-style:none;font-style: normal;font-weight:normal;border:0 none;}
+body{font-family:"Microsoft Yahei","SimHei",Arial,Tahoma,sans-serif,serif;-webkit-text-size-adjust:none;color:#333333;background:#eee;line-height:1.2;margin:0 auto;min-width:320px;}
+html{font-size:10px;}
+table{border-spacing:0; border-collapse:collapse;width:100%;}
+img{border:none;vertical-align:top;}
+a{text-decoration:none;}
+a:focus,input:focus,textarea:focus{outline:none;}
+a{color:#131313;}
+th,td{padding:0;}
+table{border-collapse:collapse;}
+/* end reset.css */
+
+/* common.css */
+.cf:after{content:"";display:block;clear:both;}
+.cf{zoom:1;}
+.left{float:left;}
+.right{float:right;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pw{width:320px;margin-left:auto;margin-right:auto;}
+.tc{text-align:center;}
+.ww{word-wrap:break-word;word-break:break-all;}
+.w_50{width:50%;}
+.w_30{width:30%;}
+.w_20{width:20%;}
+.w_15{width:15%;}
+.w_45{width:45%;}
+.paddingL44{padding-left:22px;}
+.dis_none{display:none;}
+.marginL118{margin-left:118px;}
+/* end common.css */
+
+/*李美香 start*/
+/*飞信秒杀抽奖活动 start*/
+.lott_warp{width:320px;position:relative;margin:0 auto;overflow:hidden;}
+.lott_top{background:#000;position:relative;width:320px;margin:0 auto;}
+.head_img_logo{width:320px;}
+.lott_header_warp{font-size:1.6rem;background:#fff;text-align:center;height:90px;line-height:90px;border-top-left-radius:16px;border-top-right-radius:16px;}
+.lott_header_warp img{vertical-align:middle;position:absolute;left:28px;top:30px;}
+.lott_header_warp a{display:inline-block;}
+.lott_prize{position:relative;}
+.lott_prize img{width:272px;height:103px;}
+.lott_prize p{font-weight:600;padding-left:178px;color:#fff;font-style:italic;font-size:1.8rem;position:absolute;bottom:0;left:0;width:368px;background:rgba(0,0,0,.5);height:62px;line-height:62px;}
+.lott_prize p img{margin:7px 0 0 80px;width:545px;height:207px;}
+.lott_prize p i{padding-left:10px;font-size:1.2rem;font-style:italic;}
+.lott_content{z-index:0;overflow:hidden;position:relative;background-image:url(../images/bg/border.jpg);background-repeat:no-repeat;background-size:320px auto;height:621px;padding:23px 24px 0;}
+.lott_ticket{position:absolute;top:30px;left:-63px;z-index:3;width:143px;height:81px;}
+.lott_content {width:272px;margin:0 auto;overflow:hidden;}
+.lott_content .ticket_yuan{left:-27px;z-index:5;width:79px;}
+.lott_content .ticket_bg{z-index:-1;top:42px;height:58px;}
+.lottery_btn_bor{border:2px solid #987d5c;margin-top:10px;border-radius:7px;}
+.lottery_btn_bor a{display:inline-block;color:#754946;font-size:1.6rem;font-weight:700;height:34px;line-height:34px;text-align:center;background:#fbcf00;border-color:#fef18c;border-width:1px;border-style:solid;border-radius:5px;}
+.lottery_btn{border:0;background:#fbcf00;color:#754946;font-size:1.6rem;font-weight:700;height:34px;line-height:34px;text-align:center;border-radius:3px;}
+.lottery_btn_bor a input{background:none;}
+.lott_rule_warp{padding:15px 0 7px 19px;}
+.lott_rule_warp dl {padding-bottom:6px;}
+.lott_rule_warp dl .blue{color:#2f68d2;}
+.lott_rule_warp dl dt, .lott_rule_warp dl  dd{float:left;font-size:1.4rem;color:#8c4324;}
+.lott_rule_warp dl dt span{margin-right:7px;display:inline-block;width:8px;height:8px;background:#ec6d5f;border-radius:50%;}
+.lott_tips{margin-top:15px;}
+.lott_tips em{margin-right:9px;display:inline-block;height:23px;width:52px;border-radius:5px;background:#eb6100;color:#fff;font-size:1.2rem;text-align:center;line-height:23px;}
+.lott_tips span{font-size:1.4rem;color:#8c4324;}
+.lott_rule_warp p{font-weight:bold;color:#653504;font-size:1.5rem;height:45px;line-height:45px;}
+.lott_rule_warp p.dis_none{display:none;}
+.lott_box dl{margin:0 10px 5px 0;width:80px;}
+.lott_box dl dt{text-align:center;height:55px;text-align:center;position:relative;width:80px;border-radius:7px;border-width:3px;border-style:solid;}
+
+.lott_box dl dt img.dis_none{display:none;}
+.lott_box .lott_box_dl1 dt{background:#ec6d5f;border-color:#ffb5ad;}
+
+.lott_box .lott_box_dl2 img{width:52px;height:46px;}
+.lott_box .lott_box_dl3 img{width:38px;height:44px;}
+.lott_box .lott_box_dl4 img{width:67px;height:23px;}
+.lott_box .lott_box_dl1 img{width:45px;height:44px;}
+.lott_box  .lotto_w_h1 img{width:45px;height:44px;}
+
+
+.lott_box .lott_box_dl2 dt{background:#00a7e9;border-color:#bde8f9;}
+.lott_box .lott_box_dl3 dt{background:#a584c5;border-color:#dfd1ed;}
+.lott_box .lott_box_dl4 dt{background:#911208;border-color:#ffdeb8;}
+.lott_box .lott_box_dl4 dt{background:#e33c28;border-color:#f7c9c3;}
+.lott_box .lott_box_dl4 dt img{margin-top:14px;}
+.lott_box dl.lott_box_more dt{background:#faa532;border-color:#e7e7e7;padding:13px 11px 0;color:#fff;font-size:1.2rem;width:62px;height:42px;}
+.lott_warp .lott_box dt.gray{background:#b5b5b5;border-color:#d7d7d7;}
+.lott_box dl.marginR_none{margin-right:0;}
+.lott_box dl dt span{height:19px;line-height:19px;color:#fff;font-size:1.2rem;display:inline-block;border-bottom-right-radius:7px;border-bottom-left-radius:7px;position:absolute;bottom:0;left:0;width:80px;background:rgba(0,0,0,.5);}
+.lott_box dl dd{height:23px;color:#5c3717;text-align:center;line-height:23px;} 
+.lott_box dl dd.gray{color:#9e9e9d;}
+.lott_other_link {position:absolute;bottom:52px;left:24px;}
+.lott_other_link li{text-align:center;height:20px;line-height:20px;margin-right:5px;float:left;border-bottom:2px solid #333;}
+.lott_other_link li a{display:inline-block;font-size:1.2rem;color:#333;}
+.lott_other_link li.w107{width:53px;}
+.lott_other_link li.w132{width:66px;}
+.lott_other_link li.w144{width:77px;}
+.share_dialog{z-index:99;display:none;border-radius:7px;position:absolute;top:265px;left:36px;width:223px;height:150px;background:rgba(0,0,0,.7);color:#fff;padding:10px 11px 0 16px;}
+.share_dialog h3{float:right;width:34px;}
+.share_dialog p{margin-top:50px;font-weight:600;font-size:1.6rem;}
+.draw_lotto_dialog .share_dialog{top:252px;}
+/*飞信秒杀抽奖活动 end*/
+
+/*飞信秒杀主页面 start*/
+.gold_text{border:none;color:#000;font-size:1.4rem;padding:6px 11px;margin-right:10px;width:143px;border-radius:7px;background:#ebebeb;border-top:2px solid #ebebeb;border-left:2px solid #ebebeb;}
+.lott_content_warp .seckill_btn_bor a, .seckill_btn_bor input{font-weight:bold;text-align:center;width:83px;height:27px;line-height:27px;font-size:1.3rem;}
+.seckill_btn .seckill_btn_bor{width:85px;height:29px;display:inline-block;vertical-align:bottom;}
+.seckill_btn .gray a{background:#b5b5b5;border-color:#d7d7d7;color:#fff;}
+.lott_rule_warp .underline{text-decoration:underline;}
+.seckill_dialog .share_dialog{top:570px;}
+.lotto_index .lott_other_link{bottom:41px;}
+
+.today_seckill_dialog p{font-size:1.4rem;margin-top:10px;line-height:20px;}
+
+.today_seckill_dialog .share_dialog{height:335px;top:234px;}
+.today_seckill_dialog .dialog_text_wrap{margin-top:32px;}
+.today_seckill_dialog .dialog_text_wrap div{height:15px;line-height:15px;font-size:1.4rem;margin-top:5px;}
+
+.dialog_warp .travel_dialog{height:490px;}
+.enter_gold_dialog .share_dialog{top:248px;}
+/*飞信秒杀主页面 end*/
+
+
+/*获奖名单 start*/
+.award_list .lott_content{background-image:url(../images/bg/border2.jpg);background-repeat:no-repeat;height:476px;}
+.award_list .lott_content h2{height:36px;margin-top:6px;line-height:36px;text-align:center;font-weight:bold;color:#653504;}
+.award_list table , .award_list table th {font-weight:normal;border:1px solid #cecece;}
+.award_list table th , .award_list td{height:27px;text-align:center;}
+.award_list table th {font-size:1.4rem;color:#333;background:#dcdcdc;}
+.award_list td{font-size:1.1rem;border:1px dashed #cecece;}
+.award_list table .gray{color:#666;}
+.award_list table .black{color:#333;}
+.award_list .lott_other_link{left:25px;bottom:96px;}
+/*获奖名单 end*/
+
+
+/*我的秒杀记录 start*/
+.seckill_dairy .lott_other_link{width:auto;left:36px;}
+/*我的秒杀记录 end*/
+
+
+
+/*奖品日程表 start*/
+.award_daily_content dl dt , .award_daily_content dl dd , .award_daily_content dl dd ul li{float:left;}
+.award_daily_content dl {background:#fff;margin-bottom:12px;width:100%;border:1px solid #c8c8c8;}
+.award_daily_content dl dt{margin:0 10px;height:64px;}
+.award_daily_content dl dt img{margin-top:13px;width:29px;height:28px;}
+.award_daily_content dl dd ul li{height:31px;line-height:31px;}
+.award_daily_content dl dd ul div{border-bottom:1px solid #c8c8c8;}
+.award_daily_content dl dd ul li.w270{width:110px;}
+.award_daily_content dl dd ul .startT {width:109px;text-align:center;}
+.award_daily_content dl dd ul li div , .award_daily_content dl dd ul li p{color:#333;font-size:1.2rem;}
+.award_dairy .lott_other_link{left:35px;}
+/*奖品日程表 end*/
+
+/*活动规则 start*/
+.award_rule_text{padding-top:24px;width:240px;margin:0 auto;}
+.award_rule_text p{line-height:18px;color:#8c4324;font-size:1.3rem;margin-bottom:3px;}
+.award_daily_content .lott_other_link{left:24px;bottom:69px;}
+.award_rule .lott_content{background-image:url(../images/bg/border3.jpg);background-repeat:no-repeat;background-size:320px;height:556px;}
+.award_rule .lott_other_link{bottom:41px;}
+/*活动规则 end*/
+
+/*clock start*/
+.hour , .min , .sec, .center , .sec_bottom{transform-origin:bottom center;-o-transform-origin:bottom center;-moz-transform-origin:bottom center;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;position:absolute;left:388px;top:32px;}
+.hour{width:16px;height:64px;margin-top:37px;margin-left:12px;}
+.min{width:16px;height:100px;margin-top:-3px;margin-left:4px;}
+.sec{width:3px;height:36px;margin-left:-194px;margin-top:-4px;}
+.sec img{width:4px;height:36px;}
+.sec_bottom{margin-left:-194px;margin-top:32px;transform-origin:top center;-o-transform-origin:top center;-ms-transform-origin:top center;-webkit-transform-origin:top center;-moz-transform-origin:top center;width:3px;height:8px;}
+.sec_bottom img{width:4px;height:9px;}
+.center{width:8px;height:8px;margin-top:30px;margin-left:-196px;}
+.center img{width:8px;height:8px;}
+/*clock end*/
+
+
+/*登录框 start*/
+.login_warp{z-index:100;position:absolute;left:0;top:0;background:#ebb522;border:2px solid #f4d876;border-radius:7px;width:265px;padding:0 6px 7px 8px;margin-left:17px;}
+.login_warp h3{width:17px;float:right;margin:10px;}
+.login_warp h2{margin-top:10px;height:51px;font-size:1.6rem;color:#743a2e;text-align:center;line-height:51px;}
+.login_warp dl{margin-bottom:15px;}
+.login_err{height:25px;line-height:25px;padding-left:51px;font-size:1.2rem;color:#f00;}
+.login_warp dl dt, .login_warp dl dd{float:left;height:26px;line-height:26px;}
+.login_warp dl dt{width:51px;text-align:center;color:#fff;font-size:1.4rem;}
+.login_warp dl p{color:#f00;font-size:1.2rem;height:10px;line-height:10px;}
+.login_warp dl dd input{font-size:1.3rem;vertical-align:bottom;height:25px;background:#fff;border:none;color:#000;width:175px;}
+.login_warp dl.login_yzm dd input{width:65px;margin-right:2px;vertical-align:middle;height:25px;}
+.login_warp dl.login_yzm dd img{height:26px;vertical-align:middle;margin-right:2px;}
+.login_warp dl.login_yzm dd span{color:#634a36;font-size:1.2rem;line-height:26px;}
+.login_btn{width:106px;margin:0 auto;}
+.login_btn a{border:none;width:106px;height:32px;background:#ab5645;text-align:center;line-height:32px;border-radius:7px;display:inline-block;}
+.login_btn input{background:none;border:0;width:106px;height:32px;color:#fff;font-size:1.4rem;text-align:center;line-height:32px;}
+.login_warp p{text-align:center;height:48px;font-size:1.2rem;color:#634a36;line-height:48px;}
+.cancel img{width:17px;height:16px;}
+.mask{background:rgba(0,0,0,.5);width:100%;height:100%;position:absolute;z-index:2;left:0;top:0;}
+
+/*登录框 end*/
+
+/*活动宣传 start*/
+
+.lott_warp .promotion_content{height:auto;padding-bottom:30px;background-image:url(../images/bg/xuanchuan_repeat.jpg);background-repeat:repeat;background-size:27px 28px;}
+.xuanchuan_time img{position:relative;left:-23px;}
+.xuanchuan_time {background:#ff8067;}
+.lott_warp .promotion_content img{vertical-align:top;margin-right:20px;}
+.lott_warp .promotion_content h2{height:20px;line-height:20px;font-size:1.5rem;text-align:left;font-weight:normal;color:#a43e2a;}
+.lott_warp .promotion_content p{margin-bottom:5px;color:#000;line-height:19px;}
+.promotion_content .award_rule_text{padding-top:12px;}
+.lott_warp .gray{background:#b5b5b5;border-color:#d7d7d7;}
+.xuanchuan_img1{height:165px;width:278px;}
+.xuanchuan_img2{height:181px;width:278px;}
+.promotion_content h2 img{width:15px;height:20px;}
+
+/*活动宣传 end*/
+/*李美香  end*/
+
+
+
+
+
+
+
