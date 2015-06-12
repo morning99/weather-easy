@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class SystemConstant {
 
-	/** 城市信息 */
+	/** 城市信息 abc */
 	public static final Map<String, String> CITY_INFO = new HashMap<String, String>();
 
 }
